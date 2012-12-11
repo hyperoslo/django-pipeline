@@ -123,7 +123,7 @@ class Jinja2Compressed(object):
         """Render individual JS files"""
         tags = [self.render(path) for path in paths]
         if templates:
-            tags.append(self.render_inline_js(self.package, templates))
+            tags.insert(0, self.render_inline_js(self.package, templates))
         return '\n'.join(tags)
 
     def render_inline_js(self, package, js):
