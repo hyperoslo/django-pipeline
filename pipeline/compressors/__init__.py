@@ -57,7 +57,7 @@ class Compressor(object):
         """Concatenate and compress JS files"""
         js = self.concatenate(paths)
         if templates:
-            js = js + self.compile_templates(templates)
+            js = self.compile_templates(templates) + js
 
         if not settings.PIPELINE_DISABLE_WRAPPER:
             js = "(function() { %s }).call(this);" % js
