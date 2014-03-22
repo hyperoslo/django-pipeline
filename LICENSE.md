@@ -1,6 +1,8 @@
 Licensed under the **MIT** license
 
-> Copyright (c) 2014 Hyper Interaktiv AS
+> Copyright (©) 2008 Andreas Pelme <andreas@pelme.se>
+> Copyright (©) 2011-2012 Timothée Peignier <timothee.peignier@tryphon.org>
+> Copyright (©) 2014 Hyper Interaktiv AS
 >
 > Permission is hereby granted, free of charge, to any person obtaining
 > a copy of this software and associated documentation files (the
